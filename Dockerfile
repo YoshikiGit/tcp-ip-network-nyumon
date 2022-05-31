@@ -3,7 +3,7 @@ FROM ubuntu:20.04
 RUN apt-get update -y
 RUN apt-get -y install\
   bash\
-  coreutiles\
+  coreutils\
   grep\
   iproute2\
   iputils-ping\
@@ -17,4 +17,5 @@ RUN apt-get -y install\
   wget\
   iptables\
   procps\
-  isc-dhcp-client
+  isc-dhcp-client\
+  sudo

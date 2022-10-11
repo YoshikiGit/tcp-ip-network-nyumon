@@ -19,3 +19,7 @@ RUN apt-get -y install\
   procps\
   isc-dhcp-client\
   sudo
+# 8章で使う環境準備
+RUN mkdir -p /var/tmp/http
+COPY ../src/ ./
+
